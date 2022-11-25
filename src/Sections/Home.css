@@ -1,0 +1,158 @@
+.waiveLine {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+.typeRiter {
+    color:#0a8b8c,
+}
+.homelogos{
+    font-size: 55px;
+}
+
+.body>div:nth-child(1)>div {
+    /* border: 1px solid magenta; */
+    display: flex;
+    height: 100%;
+
+}
+.body>div:nth-child(1)>div>div:nth-child(1)>div {
+    padding-left: 15%;
+}
+.body>div:nth-child(1)>div>div:nth-child(1)>div {
+    /* border: 1px solid rgb(190, 129, 129); */
+    line-height: 14px;
+    z-index: 11;
+    margin: 10% 0px;
+    width: 100%;
+}
+
+.body>div:nth-child(1)>div>div {
+    /* border: 1px solid maroon; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.reactLogo {
+    height: 50px;
+    position: absolute;
+    top: 24%;
+    right: 32%;
+    z-index: 5;
+}
+
+.reduxlogo {
+    height: 50px;
+    position: absolute;
+    top: 59%;
+    right: 7%;
+    z-index: 5;
+}
+
+.jslogo {
+    height: 50px;
+    position: absolute;
+    top: 46%;
+    right: 41%;
+    z-index: 5;
+}
+
+.csslogo {
+    height: 59px;
+    position: absolute;
+    top: 156px;
+    right: 72px;
+    z-index: 5;
+}
+
+@media(max-width:767px) {
+    .waiveLine{
+        top: 20%;
+    }
+    .body>div:nth-child(1)>div {
+        flex-direction: column-reverse;
+
+    }
+
+    .body>div:nth-child(1)>div>div {
+        /* border: 1px solid hsl(0, 100%, 25%); */
+        width: 100%;
+    }
+
+    .reactLogo {
+        height: 44px;
+        top: 20%;
+        right: 62%;
+    }
+
+    .jslogo {
+        height: 40px;
+        position: absolute;
+        top: 37%;
+        right: 83%;
+    }
+
+    .reduxlogo {
+        right: 15%;
+    }
+
+    .csslogo {
+        height: 10%;
+        top: 10%;
+    }
+
+   
+
+}
+
+@media(max-width:480px) {
+    .reactLogo {
+        height: 27px;
+        top: 10%;
+        right: 63%;
+    }
+    .homelogos{
+        font-size: 35px;
+    }
+
+    .jslogo {
+        height: 27px;
+        top: 27%;
+        right: 80%;
+    }
+
+    .reduxlogo {
+        height: 27px;
+        top: 33%;
+        right: 15%;
+    }
+
+    .csslogo {
+        height: 40px;
+        top: 10%;
+        right: 10%;
+    }
+
+    .typeRiter {
+        font-size: 11px;
+    }
+    .waiveLine{
+        top: 10%;
+    }
+}
+.pic{
+    /* border: 1px solid red; */
+    padding:0px 30px;
+    padding-top: 40px;
+    /* background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201223/pngtree-abstract-green-technology-data-image_513065.jpg'); */
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    /* background-size:cover; */
+    background-color: #0a8c8ca0;
+    /* background-color: #cee2e3; */
+}
+

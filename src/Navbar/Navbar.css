@@ -1,0 +1,103 @@
+.navBar {
+    /* border: 1px solid red; */
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+}
+
+.navBar li {
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navBar li:hover {
+    color: #0a8b8c;
+    transition: all 900ms;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.navigation>div {
+    display: flex;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+.tabletNavigation {
+    display: none;
+}
+
+.mobilNavigation {
+    display: none;
+}
+
+@media(max-width:767px) {
+    .navigation {
+        display: none;
+    }
+
+    .mobilNavigation {
+        display: none;
+    }
+
+    .tabletNavigation {
+        display: flex;
+        font-size: 25px;
+        padding:10px 0px 10px 15px;
+
+    }
+    .hamburgerDropdown {
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 43px;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        font-weight: 600;
+    }
+
+}
+
+@media(max-width:480px) {
+    .navigation {
+        display: none;
+    }
+
+    .tabletNavigation {
+        display: none;
+    }
+
+    .mobilNavigation {
+        display: flex;
+        font-size: 25px;
+        padding:10px 0px 10px 15px;
+
+    }
+
+    .hamburgerDropdown {
+        position: absolute;
+        top: 43px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-weight: 600;
+        
+    }
+    .hamburgerDropdown li{
+        font-size: 15px;
+    }
+
+}
+
+.toggleBtn {
+    height: 30px;
+    border-radius: 50%;
+}
