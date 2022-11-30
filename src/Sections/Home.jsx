@@ -2,11 +2,15 @@ import React from 'react'
 import './Home.css'
 import { motion } from 'framer-motion'
 import { AiOutlineLinkedin, AiFillGithub } from "react-icons/ai";
+import { ImMail4 } from "react-icons/im";
 import TypeWritte from '../Components/TypeWritter'
+
+
+
 
 export default function Home() {
     return (
-        <div>
+        <div className='home' >
             <div>
                 <div>
                     <h1 >I'm</h1>
@@ -21,6 +25,10 @@ export default function Home() {
                         <motion.div
                             whileHover={{ scale: 1.3 }}
                         > <a href="https://www.linkedin.com/in/prakash-kumar-jena-724b30244/" target='_blank' ><AiOutlineLinkedin className='homelogos' style={{ color: '#0a66c2' }} /></a>
+                        </motion.div>
+                        <motion.div
+                            whileHover={{ scale: 1.3 }}
+                        > <a href="prakashkumarjena367@gmail.com" target='_blank' ><ImMail4 className='homelogos' style={{ color: 'red' }} /></a>
                         </motion.div>
                     </div>
                 </div>

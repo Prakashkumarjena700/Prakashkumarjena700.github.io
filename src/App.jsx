@@ -40,10 +40,12 @@ function App() {
   return (
 
     <div className="App" id={them && "dark"} >
-        <WaiveLine />
+      <WaiveLine />
       <Navbar home={home} about={about} skills={skills} project={project} contact={contact} />
       <div className='body' >
-        <div ref={refhome}><Home /></div>
+        <div ref={refhome}><Home />
+        <a href="https://drive.google.com/uc?export=download&id=1vJ8SpJ2Pyef4wQOBZEWp1eu-twa8Pgwp" >Download</a>
+        </div>
         <div ref={refabout}><About /></div>
         <div ref={refskills}><Skills /></div>
         <div ref={refproject}><Project /></div>
