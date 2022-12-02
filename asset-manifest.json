@@ -1,19 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.08c5a66d.css",
-    "main.js": "/static/js/main.060db746.js",
+    "main.css": "/static/css/main.fa2bdcb9.css",
+    "main.js": "/static/js/main.af9e152d.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/timelyBanner.png": "/static/media/timelyBanner.00c72d6b9bf4b2eb32fc.png",
-    "static/media/shinecomBanner.png": "/static/media/shinecomBanner.b3e9684d12282398e96d.png",
+    "static/media/shinecomBanner.png": "/static/media/shinecomBanner.7b07c675f9e62587de1f.png",
     "static/media/mypic.png": "/static/media/mypic.ac4f00f09de197d60119.png",
     "static/media/nakuricomBanner.png": "/static/media/nakuricomBanner.4f72f2d91d755dd5a9b9.png",
+    "static/media/sunlogo.png": "/static/media/sunlogo.fd487f950cecd039d5fb.png",
+    "static/media/coder.png": "/static/media/coder.0aed0b2b986144cb45d1.png",
+    "static/media/nextjslogo.png": "/static/media/nextjslogo.a725f5cb51998c30c03a.png",
+    "static/media/reactlogo.webp": "/static/media/reactlogo.b3201c279bc183c2651e.webp",
+    "static/media/mongidb.webp": "/static/media/mongidb.7fa5a27fdebca7f75f3a.webp",
+    "static/media/reduxlogo.webp": "/static/media/reduxlogo.f8f7a762d26a96c82e48.webp",
+    "static/media/reactblack.png": "/static/media/reactblack.a9e2b6ed8b4528e48a60.png",
+    "static/media/chakrauilogo.png": "/static/media/chakrauilogo.36db97903e01c1040ed5.png",
+    "static/media/html5logo.webp": "/static/media/html5logo.dcf454654edbd2674f08.webp",
+    "static/media/css3logo.webp": "/static/media/css3logo.7c08878f5cc6dc0be79e.webp",
+    "static/media/nodejslogo.webp": "/static/media/nodejslogo.37e1862a3403e8a74cdd.webp",
+    "static/media/jslogo.webp": "/static/media/jslogo.bd471b8c99339d9445b5.webp",
+    "static/media/bootstraplogo.webp": "/static/media/bootstraplogo.7e9e448ff2ac08775430.webp",
+    "static/media/typescriptlogo.webp": "/static/media/typescriptlogo.6fe5eaf5f93402127226.webp",
+    "static/media/githublogo.webp": "/static/media/githublogo.35d5fe3051753cdec9c3.webp",
+    "static/media/expresslogo.webp": "/static/media/expresslogo.f9017fa6cbba727d5984.webp",
+    "static/media/moon.webp": "/static/media/moon.c16ccef15cc90bb104f5.webp",
     "index.html": "/index.html",
-    "main.08c5a66d.css.map": "/static/css/main.08c5a66d.css.map",
-    "main.060db746.js.map": "/static/js/main.060db746.js.map",
+    "main.fa2bdcb9.css.map": "/static/css/main.fa2bdcb9.css.map",
+    "main.af9e152d.js.map": "/static/js/main.af9e152d.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08c5a66d.css",
-    "static/js/main.060db746.js"
+    "static/css/main.fa2bdcb9.css",
+    "static/js/main.af9e152d.js"
   ]
 }
