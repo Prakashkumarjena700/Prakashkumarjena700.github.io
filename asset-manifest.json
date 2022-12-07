@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa2bdcb9.css",
-    "main.js": "/static/js/main.af9e152d.js",
+    "main.css": "/static/css/main.30665443.css",
+    "main.js": "/static/js/main.eeb45fae.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/timelyBanner.png": "/static/media/timelyBanner.00c72d6b9bf4b2eb32fc.png",
     "static/media/shinecomBanner.png": "/static/media/shinecomBanner.7b07c675f9e62587de1f.png",
     "static/media/mypic.png": "/static/media/mypic.ac4f00f09de197d60119.png",
     "static/media/nakuricomBanner.png": "/static/media/nakuricomBanner.4f72f2d91d755dd5a9b9.png",
+    "static/media/netlifylogo.png": "/static/media/netlifylogo.ff9a6cf8b6be147ca675.png",
     "static/media/sunlogo.png": "/static/media/sunlogo.fd487f950cecd039d5fb.png",
     "static/media/coder.png": "/static/media/coder.0aed0b2b986144cb45d1.png",
-    "static/media/nextjslogo.png": "/static/media/nextjslogo.a725f5cb51998c30c03a.png",
+    "static/media/framermotionlogo.webp": "/static/media/framermotionlogo.912be3b93f412d000589.webp",
     "static/media/reactlogo.webp": "/static/media/reactlogo.b3201c279bc183c2651e.webp",
     "static/media/mongidb.webp": "/static/media/mongidb.7fa5a27fdebca7f75f3a.webp",
     "static/media/reduxlogo.webp": "/static/media/reduxlogo.f8f7a762d26a96c82e48.webp",
@@ -25,12 +26,12 @@
     "static/media/expresslogo.webp": "/static/media/expresslogo.f9017fa6cbba727d5984.webp",
     "static/media/moon.webp": "/static/media/moon.c16ccef15cc90bb104f5.webp",
     "index.html": "/index.html",
-    "main.fa2bdcb9.css.map": "/static/css/main.fa2bdcb9.css.map",
-    "main.af9e152d.js.map": "/static/js/main.af9e152d.js.map",
+    "main.30665443.css.map": "/static/css/main.30665443.css.map",
+    "main.eeb45fae.js.map": "/static/js/main.eeb45fae.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa2bdcb9.css",
-    "static/js/main.af9e152d.js"
+    "static/css/main.30665443.css",
+    "static/js/main.eeb45fae.js"
   ]
 }
