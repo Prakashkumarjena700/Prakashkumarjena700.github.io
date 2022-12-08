@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.183e2c3b.css",
+    "main.css": "/static/css/main.883b6ada.css",
     "main.js": "/static/js/main.eeb45fae.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/timelyBanner.png": "/static/media/timelyBanner.00c72d6b9bf4b2eb32fc.png",
@@ -26,12 +26,12 @@
     "static/media/expresslogo.webp": "/static/media/expresslogo.f9017fa6cbba727d5984.webp",
     "static/media/moon.webp": "/static/media/moon.c16ccef15cc90bb104f5.webp",
     "index.html": "/index.html",
-    "main.183e2c3b.css.map": "/static/css/main.183e2c3b.css.map",
+    "main.883b6ada.css.map": "/static/css/main.883b6ada.css.map",
     "main.eeb45fae.js.map": "/static/js/main.eeb45fae.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.183e2c3b.css",
+    "static/css/main.883b6ada.css",
     "static/js/main.eeb45fae.js"
   ]
 }
