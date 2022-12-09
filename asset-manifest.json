@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c2ece66.css",
-    "main.js": "/static/js/main.42b4c128.js",
+    "main.css": "/static/css/main.66eb4f44.css",
+    "main.js": "/static/js/main.157373ad.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/timelyBanner.png": "/static/media/timelyBanner.00c72d6b9bf4b2eb32fc.png",
     "static/media/shinecomBanner.png": "/static/media/shinecomBanner.7b07c675f9e62587de1f.png",
     "static/media/mypic.png": "/static/media/mypic.ac4f00f09de197d60119.png",
     "static/media/nakuricomBanner.png": "/static/media/nakuricomBanner.4f72f2d91d755dd5a9b9.png",
     "static/media/picbackground.jpg": "/static/media/picbackground.0f42df51aadb48b30129.jpg",
+    "static/media/aboutbackground.jpg": "/static/media/aboutbackground.b18fd4453e8febd47363.jpg",
     "static/media/netlifylogo.png": "/static/media/netlifylogo.ff9a6cf8b6be147ca675.png",
     "static/media/sunlogo.png": "/static/media/sunlogo.fd487f950cecd039d5fb.png",
     "static/media/coder.png": "/static/media/coder.0aed0b2b986144cb45d1.png",
@@ -27,12 +28,12 @@
     "static/media/expresslogo.webp": "/static/media/expresslogo.f9017fa6cbba727d5984.webp",
     "static/media/moon.webp": "/static/media/moon.c16ccef15cc90bb104f5.webp",
     "index.html": "/index.html",
-    "main.9c2ece66.css.map": "/static/css/main.9c2ece66.css.map",
-    "main.42b4c128.js.map": "/static/js/main.42b4c128.js.map",
+    "main.66eb4f44.css.map": "/static/css/main.66eb4f44.css.map",
+    "main.157373ad.js.map": "/static/js/main.157373ad.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c2ece66.css",
-    "static/js/main.42b4c128.js"
+    "static/css/main.66eb4f44.css",
+    "static/js/main.157373ad.js"
   ]
 }
