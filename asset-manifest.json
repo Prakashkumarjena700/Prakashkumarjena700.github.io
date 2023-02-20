@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ea934c4.css",
-    "main.js": "/static/js/main.f5bc2eb2.js",
+    "main.css": "/static/css/main.c0f64462.css",
+    "main.js": "/static/js/main.b2b37789.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/kindmea4.png": "/static/media/kindmea4.39bce3cafb41fc1df2ea.png",
     "static/media/timelyBanner.png": "/static/media/timelyBanner.00c72d6b9bf4b2eb32fc.png",
@@ -18,7 +18,6 @@
     "static/media/kindmeal3.png": "/static/media/kindmeal3.255b288125ddccc8f65a.png",
     "static/media/naukri4.png": "/static/media/naukri4.312a0e49ce1fe68aa712.png",
     "static/media/kindmeal1.png": "/static/media/kindmeal1.ff2f55af6e2f5a47789d.png",
-    "static/media/aboutbackground.jpg": "/static/media/aboutbackground.b18fd4453e8febd47363.jpg",
     "static/media/clarks4.jpeg": "/static/media/clarks4.44e28fa5a0eea112e1f0.jpeg",
     "static/media/sunlogo.png": "/static/media/sunlogo.fd487f950cecd039d5fb.png",
     "static/media/coder.png": "/static/media/coder.0aed0b2b986144cb45d1.png",
@@ -44,12 +43,12 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "static/media/vercel-logo.svg": "/static/media/vercel-logo.a683396ea86d714691fe74275340f219.svg",
-    "main.5ea934c4.css.map": "/static/css/main.5ea934c4.css.map",
-    "main.f5bc2eb2.js.map": "/static/js/main.f5bc2eb2.js.map",
+    "main.c0f64462.css.map": "/static/css/main.c0f64462.css.map",
+    "main.b2b37789.js.map": "/static/js/main.b2b37789.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ea934c4.css",
-    "static/js/main.f5bc2eb2.js"
+    "static/css/main.c0f64462.css",
+    "static/js/main.b2b37789.js"
   ]
 }
