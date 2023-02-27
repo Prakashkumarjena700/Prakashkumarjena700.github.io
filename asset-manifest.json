@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0f64462.css",
-    "main.js": "/static/js/main.b2b37789.js",
+    "main.css": "/static/css/main.2f8be81a.css",
+    "main.js": "/static/js/main.dc218336.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/kindmea4.png": "/static/media/kindmea4.39bce3cafb41fc1df2ea.png",
+    "static/media/tata1mg3.png": "/static/media/tata1mg3.32809dcc8a26eddfe257.png",
     "static/media/timelyBanner.png": "/static/media/timelyBanner.00c72d6b9bf4b2eb32fc.png",
+    "static/media/tata1mg4.png": "/static/media/tata1mg4.d775bd9be71bfcc8ed2c.png",
     "static/media/shinecomBanner.png": "/static/media/shinecomBanner.7b07c675f9e62587de1f.png",
     "static/media/clarks3.webp": "/static/media/clarks3.143369b7288fe1b97eb2.webp",
     "static/media/mypic.png": "/static/media/mypic.ac4f00f09de197d60119.png",
     "static/media/mongidb.webp": "/static/media/mongidb.e1a467194973565f911f.webp",
+    "static/media/tata1mg2.png": "/static/media/tata1mg2.87f2d15ded3a97042dae.png",
     "static/media/naukri2.png": "/static/media/naukri2.a598abc30c386ef8bb86.png",
     "static/media/nakuricomBanner.png": "/static/media/nakuricomBanner.4f72f2d91d755dd5a9b9.png",
+    "static/media/fp05_036-Prakash-Jena.pdf": "/static/media/fp05_036-Prakash-Jena.b6a8253513ec1119e191.pdf",
     "static/media/kindmeal2.jpg": "/static/media/kindmeal2.07b3660eb6353d6a62f4.jpg",
     "static/media/naukri3.png": "/static/media/naukri3.6b597c342df4188ef09d.png",
     "static/media/clarks2.webp": "/static/media/clarks2.fde1483321d429ac90f0.webp",
@@ -19,6 +23,7 @@
     "static/media/naukri4.png": "/static/media/naukri4.312a0e49ce1fe68aa712.png",
     "static/media/kindmeal1.png": "/static/media/kindmeal1.ff2f55af6e2f5a47789d.png",
     "static/media/clarks4.jpeg": "/static/media/clarks4.44e28fa5a0eea112e1f0.jpeg",
+    "static/media/tata1mg1.jpg": "/static/media/tata1mg1.7670e583641e254c1c35.jpg",
     "static/media/sunlogo.png": "/static/media/sunlogo.fd487f950cecd039d5fb.png",
     "static/media/coder.png": "/static/media/coder.0aed0b2b986144cb45d1.png",
     "static/media/clarks1.jpg": "/static/media/clarks1.4a86457b87e46ad29a02.jpg",
@@ -43,12 +48,12 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "static/media/vercel-logo.svg": "/static/media/vercel-logo.a683396ea86d714691fe74275340f219.svg",
-    "main.c0f64462.css.map": "/static/css/main.c0f64462.css.map",
-    "main.b2b37789.js.map": "/static/js/main.b2b37789.js.map",
+    "main.2f8be81a.css.map": "/static/css/main.2f8be81a.css.map",
+    "main.dc218336.js.map": "/static/js/main.dc218336.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0f64462.css",
-    "static/js/main.b2b37789.js"
+    "static/css/main.2f8be81a.css",
+    "static/js/main.dc218336.js"
   ]
 }
