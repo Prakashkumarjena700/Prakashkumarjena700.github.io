@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f8be81a.css",
-    "main.js": "/static/js/main.dc218336.js",
+    "main.css": "/static/css/main.099b09c0.css",
+    "main.js": "/static/js/main.7b6a47f6.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/kindmea4.png": "/static/media/kindmea4.39bce3cafb41fc1df2ea.png",
     "static/media/tata1mg3.png": "/static/media/tata1mg3.32809dcc8a26eddfe257.png",
@@ -48,12 +48,12 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "static/media/vercel-logo.svg": "/static/media/vercel-logo.a683396ea86d714691fe74275340f219.svg",
-    "main.2f8be81a.css.map": "/static/css/main.2f8be81a.css.map",
-    "main.dc218336.js.map": "/static/js/main.dc218336.js.map",
+    "main.099b09c0.css.map": "/static/css/main.099b09c0.css.map",
+    "main.7b6a47f6.js.map": "/static/js/main.7b6a47f6.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f8be81a.css",
-    "static/js/main.dc218336.js"
+    "static/css/main.099b09c0.css",
+    "static/js/main.7b6a47f6.js"
   ]
 }
