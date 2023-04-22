@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.099b09c0.css",
-    "main.js": "/static/js/main.9c984806.js",
+    "main.js": "/static/js/main.29270edf.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/tata1mg3.png": "/static/media/tata1mg3.32809dcc8a26eddfe257.png",
     "static/media/timelyBanner.png": "/static/media/timelyBanner.00c72d6b9bf4b2eb32fc.png",
@@ -49,11 +49,11 @@
     "index.html": "/index.html",
     "static/media/vercel-logo.svg": "/static/media/vercel-logo.a683396ea86d714691fe74275340f219.svg",
     "main.099b09c0.css.map": "/static/css/main.099b09c0.css.map",
-    "main.9c984806.js.map": "/static/js/main.9c984806.js.map",
+    "main.29270edf.js.map": "/static/js/main.29270edf.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.099b09c0.css",
-    "static/js/main.9c984806.js"
+    "static/js/main.29270edf.js"
   ]
 }
