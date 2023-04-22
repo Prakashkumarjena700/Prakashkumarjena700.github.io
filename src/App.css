@@ -4,10 +4,84 @@
 }
 
 #dark {
-  background-color:#001f21;
+  background-color: #040613;
   color: white;
 }
 
+
 h1 {
-  color: #0a8b8c;
+  color: #3f45de;
+  cursor: pointer;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  transform-origin: 0%;
+  background-color: #4042dd;
+  width: 100%;
+  z-index: 13;
+}
+
+.githubcalendar {
+  /* border: 1px solid red; */
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.githubstats {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  gap: 1%;
+}
+
+.githubstats img {
+  width: 40%;
+ 
+}
+
+.statusheading {
+  margin-bottom: -70px;
+  margin-top: 100px;
+  margin-left: 10%;
+}
+
+@media(max-width:767px) {
+  .githubcalendar {
+    padding: 0px 10%;
+  }
+
+  .githubstats img {
+    width: 100%;
+
+  }
+
+  .githubstats {
+    flex-direction: column;
+    padding: 0px 10%;
+    gap: 20px;
+  }
+
+  .statusheading {
+    margin-bottom: -30px;
+    margin-top: 50px;
+  }
+
+}
+
+@media(max-width:480px) {
+  .statusheading {
+    margin-bottom: -10px;
+  }
+
+  .githubstats img {
+    border-top-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+  }
 }

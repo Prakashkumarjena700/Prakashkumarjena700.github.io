@@ -7,9 +7,9 @@ import ThemContextProvider from './Context/ThemContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <ThemContextProvider>
+  <ThemContextProvider>
       <App />
-    </ThemContextProvider>
+  </ThemContextProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -9,7 +9,7 @@ export default function WaiveLine() {
                     initial={{ strokeOpacity: 0, pathLength: 0, pathOffset: 1 }}
                     animate={{ strokeOpacity: 0.5, pathLength: 1, pathOffset: 0 }}
                     transition={{ duration: 3, ease:'easeInOut' }}
-                    stroke="#0a8b8c" strokeOpacity="0.1" strokeWidth="10" />
+                    stroke="#3a50e0" strokeOpacity="0.1" strokeWidth="10" />
  </svg>
         </div>
     )

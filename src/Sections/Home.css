@@ -1,13 +1,16 @@
 .waiveLine {
     width: 100%;
     position: absolute;
-    top: 20%;
+    top: 5%;
+    z-index: 1;
 }
 
-.typeRiter {
-    color:#0a8b8c,
+.home {
+    padding-bottom: 80px;
+    margin-top: 40px;
 }
-.homelogos{
+
+.homelogos {
     font-size: 50px;
 }
 
@@ -17,15 +20,22 @@
     height: 100%;
 
 }
+
 .body>div:nth-child(1)>div>div:nth-child(1)>div {
     padding-left: 15%;
 }
+
 .body>div:nth-child(1)>div>div:nth-child(1)>div {
     /* border: 1px solid rgb(190, 129, 129); */
     line-height: 14px;
     z-index: 11;
     margin: 10% 0px;
     width: 100%;
+}
+
+.body>div:nth-child(1)>div>div:nth-child(1)>div h1 {
+    font-size: 40px;
+    line-height: 30px;
 }
 
 .body>div:nth-child(1)>div>div {
@@ -70,10 +80,39 @@
     z-index: 5;
 }
 
+.picbackground {
+    position: absolute;
+    top: 72px;
+    width: 33%;
+}
+
+.pic {
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 50%;
+    z-index: 3;
+}
+
+@media (max-width:920px) {
+    .picbackground {
+        top: 84px;
+    }
+}
+
+@media (max-width:880px) {
+    .picbackground {
+        top: 109px;
+    }
+}
+
 @media(max-width:767px) {
-    .waiveLine{
+    .picbackground {
+        width: 62%;
+    }
+
+    .waiveLine {
         top: 20%;
     }
+
     .body>div:nth-child(1)>div {
         flex-direction: column-reverse;
 
@@ -105,18 +144,27 @@
         height: 10%;
         top: 10%;
     }
+}
 
-   
-
+@media (max-width:540px) {
+    .picbackground {
+        top: 86px;
+        width: 62%;
+    }
 }
 
 @media(max-width:480px) {
+    .body>div:nth-child(1)>div {
+        padding-bottom: 30px;
+    }
+
     .reactLogo {
         height: 27px;
         top: 10%;
         right: 63%;
     }
-    .homelogos{
+
+    .homelogos {
         font-size: 35px;
     }
 
@@ -138,22 +186,36 @@
         right: 10%;
     }
 
-    .typeRiter {
-        font-size: 11px;
-    }
-    .waiveLine{
+    .waiveLine {
         top: 10%;
     }
-}
-.pic{
-    /* border: 1px solid red; */
-    padding:0px 30px;
-    padding-top: 40px;
-    /* background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201223/pngtree-abstract-green-technology-data-image_513065.jpg'); */
-    border-bottom-left-radius: 60px;
-    border-bottom-right-radius: 60px;
-    /* background-size:cover; */
-    background-color: #0a8c8ca0;
-    /* background-color: #cee2e3; */
+
+    .body>div:nth-child(1)>div>div:nth-child(1)>div h1 {
+        font-size: 30px;
+    }
+
+    .picbackground {
+        width: 63%;
+        top: 72px;
+    }
+
 }
 
+@media (max-width:370px) {
+    .picbackground {
+        top: 67px;
+    }
+}
+
+@media(max-width:280px) {
+    .picbackground {
+        top: 62px;
+
+    }
+}
+
+#homeresume {
+    position: relative;
+    top: 40px;
+    border-radius: 5px;
+}

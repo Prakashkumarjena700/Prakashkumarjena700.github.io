@@ -6,7 +6,7 @@ export const ThemContext = createContext()
 
 
 export default function ThemContextProvider({ children }) {
-    const [them, setThem] = useState(false)
+    const [them, setThem] = useState(true)
 
     const changeThem=()=>{
         setThem(!them)

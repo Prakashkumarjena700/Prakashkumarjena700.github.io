@@ -1,0 +1,141 @@
+.contact {
+    /* border: 1px solid navy; */
+    padding: 0px 10%;
+    margin-bottom: 20px;
+}
+
+.contactForm {
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.contactForm>div form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1.5px solid #3f45de;
+    padding: 40px;
+    border-radius: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.contactForm>div form button {
+    padding: 10px 0px;
+    background: linear-gradient(151deg, rgba(64, 66, 221, 1) 4%, rgba(17, 188, 244, 1) 97%);
+    color: white;
+    border: none;
+    font-size: 20px;
+    border: 1px solid #4042dd;
+}
+
+.contactForm>div form button:hover {
+    transition: all 700ms;
+    color: #4042dd;
+    background: none;
+    border: 1px solid #4042dd;
+}
+
+.contactForm>div input {
+    border: 1px solid #4042dd;
+    background: none;
+    outline: none;
+    padding: 5px 10px;
+    height: 30px;
+
+}
+
+.contactForm>div textarea {
+    background: none;
+    outline: none;
+    padding: 5px 10px;
+    height: 80px;
+    border-color: #4042dd;
+}
+
+.contactForm>div {
+    /* border: 1px solid green; */
+    width: 50%;
+}
+
+.contactForm>div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contactForm>div p {
+    margin: 0px;
+    font-size: 20px;
+
+}
+
+.resumeDownloadeBtn {
+    border: 1px solid #4042dd;
+    text-decoration: none;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    background: linear-gradient(151deg, rgba(64, 66, 221, 1) 4%, rgba(17, 188, 244, 1) 97%);
+    font-size: 20px;
+    text-align: center;
+}
+
+.resumeDownloadeBtn:hover {
+    transition: all 700ms;
+    color: #4042dd;
+    background: none;
+}
+
+.resumeDownloadbtnincontact {
+    border: 1px solid #4042dd;
+    text-decoration: none;
+    color: white;
+    padding: 10px 150px;
+    background: linear-gradient(151deg, rgba(64, 66, 221, 1) 4%, rgba(17, 188, 244, 1) 97%);
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.resumeDownloadbtnincontact:hover {
+    transition: all 700ms;
+    color: #4042dd;
+    background: none;
+}
+
+@media (max-width:900px) {
+    .resumeDownloadbtnincontact {
+        padding: 10px 100px;
+    }
+}
+
+@media(max-width:767px) {
+    .contactForm>div {
+        width: 100%;
+    }
+
+    .contactForm {
+        flex-direction: column;
+    }
+
+    .contactForm {
+        gap: 30px;
+    }
+
+}
+
+@media(max-width:480px) {
+    .contactForm>div p {
+        font-size: 15px;
+    }
+
+}
+
+.thankyou {
+    /* border: 1px solid red; */
+    text-align: center;
+    background: linear-gradient(151deg, rgba(64, 66, 221, 1) 4%, rgba(17, 188, 244, 1) 97%);
+}

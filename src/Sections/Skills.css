@@ -1,3 +1,172 @@
-.skills{
-    height: 100vh;
+.skills {
+    /* border: 1px solid rgb(61, 37, 37); */
+    padding-top: 50px;
+}
+
+.skillbodyContainer {
+    border: 2px solid #3a50e0;
+    margin: 0px 10%;
+    padding: 50px;
+    padding-top: 10px;
+    border-radius: 7px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.skillcontainer {
+    /* border: 1px solid red; */
+    height: 50%;
+    display: grid;
+    gap: 30px 20px;
+    grid-template-columns: repeat(8, 1fr);
+    margin-top: 30px;
+}
+
+
+.skillcontainer>div {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skillcontainer>div img {
+    height: 70px;
+    background-color: white;
+    padding: 10px;
+    /* border: 1px solid rebeccapurple; */
+    border-radius: 7px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.skillcontainer>div img:hover {
+    box-shadow: 0px 0px 19px 3px #4042dd;
+}
+
+.skillcontainer>div:nth-child(1) img:hover {
+    box-shadow: 0px 0px 19px 3px red;
+    transition: all 700ms;
+}
+
+.skillcontainer>div:nth-child(2) img:hover {
+    box-shadow: 0px 0px 19px 3px #1572B6;
+    transition: all 700ms;
+}
+
+.skillcontainer>div:nth-child(2) img:hover {
+    box-shadow: 0px 0px 19px 3px #1572B6;
+    transition: all 700ms;
+}
+
+.skillcontainer>div:nth-child(3) img:hover {
+    box-shadow: 0px 0px 19px 3px #FFDD25;
+    transition: all 700ms;
+}
+
+.skillcontainer>div:nth-child(4) img:hover {
+    box-shadow: 0px 0px 19px 3px #1C9E39;
+    transition: all 700ms;
+}
+
+.skillcontainer>div:nth-child(5) img:hover {
+    box-shadow: 0px 0px 19px 3px #828282;
+    transition: all 700ms;
+}
+
+.skillcontainer>div:nth-child(6) img:hover {
+    box-shadow: 0px 0px 19px 3px #61DAFB;
+    transition: all 700ms;
+}
+
+.skillcontainer>div:nth-child(7) img:hover {
+    box-shadow: 0px 0px 19px 3px #75BA5B;
+    transition: all 700ms;
+}
+
+.skillcontainer>div:nth-child(8) img:hover {
+    box-shadow: 0px 0px 19px 3px #6C4EB0;
+    transition: all 700ms;
+}
+
+.skillcontainer>div:nth-child(9) img:hover {
+    box-shadow: 0px 0px 19px 3px #1368AD;
+    transition: all 700ms;
+}
+
+.skillcontainer>div:nth-child(10) img:hover {
+    box-shadow: 0px 0px 19px 3px #5DC9C9;
+    transition: all 700ms;
+}
+
+.skillcontainer>div:nth-child(11) img:hover {
+    box-shadow: 0px 0px 19px 3px #5B4282;
+    transition: all 700ms;
+}
+
+.skillcontainer>div:nth-child(12) img:hover {
+    box-shadow: 0px 0px 19px 3px rgb(162, 162, 162);
+    transition: all 700ms;
+}
+
+.skillcontainer>div:nth-child(13) img:hover {
+    box-shadow: 0px 0px 19px 3px #8548C2;
+    transition: all 700ms;
+}
+
+.skillcontainer>div:nth-child(14) img:hover {
+    box-shadow: 0px 0px 19px 3px #6C4EB0;
+    transition: all 700ms;
+}
+
+.skillcontainer>div:nth-child(15) img:hover {
+    box-shadow: 0px 0px 19px 3px #7D37FB;
+    transition: all 700ms;
+}
+
+.skillcontainer>div:nth-child(16) img:hover {
+    box-shadow: 0px 0px 19px 3px #CC3534;
+    transition: all 700ms;
+}
+
+.whiteInput {
+    color: white;
+}
+
+@media(max-width:912px) {
+    .skillcontainer {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media(max-width:820px) {
+    .skillcontainer {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media(max-width:767px) {
+    .skillcontainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(max-width:480px) {
+    .skillcontainer {
+        grid-template-columns: repeat(2, 1fr);
+        /* border: 1px solid green; */
+        gap: 10px;
+    }
+
+    .skillcontainer>div img {
+        height: 40px;
+    }
+
+    .skillcontainer>div img {
+        border-radius: 4px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
 }

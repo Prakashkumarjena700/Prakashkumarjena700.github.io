@@ -4,17 +4,26 @@ import { motion } from 'framer-motion'
 import { AiOutlineLinkedin, AiFillGithub } from "react-icons/ai";
 import { ImMail4 } from "react-icons/im";
 import TypeWritte from '../Components/TypeWritter'
-
-
-
+import mypic from '../Photos/mypic.png'
+import css3logo from '../Photos/css3logo.webp'
+import jslogo from '../Photos/jslogo.webp'
+import reactlogo from '../Photos/reactlogo.webp'
+import reduxlogo from '../Photos/reduxlogo.webp'
+import picbackground from '../Photos/picbackground.jpg'
+import Resume from "../Aseests/fp05_036-Prakash-Jena.pdf"
 
 export default function Home() {
+    const handelClick = () => {
+        window.open("https://drive.google.com/file/d/1k8tkEOeOQLjVt1OSOb-iw_zhs4maEU8k/view?usp=sharing","_blank")
+    }
+
     return (
         <div className='home' >
             <div>
                 <div>
                     <h1 >I'm</h1>
-                    <TypeWritte />
+                    {/* <TypeWritte /> */}
+                    <h1>Prakash Kumar Jena</h1>
                     <p>Full Stack Web Developer</p>
                     <div style={{ display: 'flex', gap: '16px' }} >
                         <motion.div
@@ -28,9 +37,22 @@ export default function Home() {
                         </motion.div>
                         <motion.div
                             whileHover={{ scale: 1.3 }}
-                        > <a href="prakashkumarjena367@gmail.com" target='_blank' ><ImMail4 className='homelogos' style={{ color: 'red' }} /></a>
+                        > <a href="mailto:prakashkumarjena367@gmail.com" target='_blank' ><ImMail4 className='homelogos' style={{ color: 'red' }} /></a>
                         </motion.div>
                     </div>
+                    {/* <a href="https://drive.google.com/uc?export=download&id=1vJ8SpJ2Pyef4wQOBZEWp1eu-twa8Pgwp" >Download My Resume</a> */}
+                    <a href={Resume}
+                        target="_blank"
+                        download={"fp05_036-Prakash-Jena"}
+                        _hover={{ TextDecoder: "none" }}
+                     
+                    >
+                        <button
+                         id='homeresume' className='resumeDownloadeBtn'
+                            download={Resume}
+                            onClick={() => handelClick()}
+                        >Resume</button>
+                    </a>
                 </div>
             </div>
 
@@ -38,21 +60,21 @@ export default function Home() {
                 <motion.img
                     animate={{ y: [0, 30, 30, 0] }}
                     transition={{ repeat: Infinity, duration: 5 }}
-                    className='csslogo' src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="" />
+                    className='csslogo' src={css3logo} alt="css3" />
                 <motion.img
                     animate={{ y: [0, 30, 30, 0, 0] }}
                     transition={{ repeat: Infinity, duration: 4 }}
-                    className='jslogo' src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="" />
+                    className='jslogo' src={jslogo} alt="" />
                 <motion.img
                     animate={{ rotate: [0, 360], x: [0, 20, 20, 0] }}
                     transition={{ repeat: Infinity, duration: 10 }}
-                    className='reactLogo' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="" />
+                    className='reactLogo' src={reactlogo} alt="react" />
                 <motion.img
                     animate={{ rotate: [0, 360], x: [0, 30, 30, 0] }}
                     transition={{ repeat: Infinity, duration: 10 }}
-                    className='reduxlogo' src="https://cdn.worldvectorlogo.com/logos/redux.svg" alt="" />
-
-                    <img width='50%' className='pic' style={{ zIndex: '4' }} src="https://i.ibb.co/GMDmCjb/DSC-0954-removebg-preview.png" alt="" />
+                    className='reduxlogo' src={reduxlogo} alt="" />
+                <img className='picbackground' src={picbackground} alt="" />
+                <img width='50%' className='pic' style={{ zIndex: '4' }} src={mypic} alt="" />
 
             </div>
         </div>

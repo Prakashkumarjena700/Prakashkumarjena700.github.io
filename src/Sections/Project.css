@@ -1,0 +1,136 @@
+.project {
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    padding: 10px 10%;
+    /* display: inline-block; */
+}
+
+
+.projectcontainer>div {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.slidercontainer img {
+    width: 100%;
+    height: 300px;
+}
+
+.projectdiv>div {
+    width: 50%;
+    height: 300px;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #4042DD, #12BAF4);
+}
+
+.projectdiv>div p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.projectdiv>div:nth-child(2) img {
+    width: 30px;
+}
+
+.projectdiv>div:nth-child(2) {
+    padding: 0px 10px;
+}
+
+.projectdiv>div:nth-child(2) p:nth-child(1) {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 5px 0px;
+    /* margin-top: 35px; */
+}
+
+.projectdiv>div:nth-child(2) p:nth-child(1):hover {
+    transition: all 900ms;
+    color: #3F45DE;
+}
+
+.projectdiv>div:nth-child(2) p:nth-child(2):hover {
+    transition: all 900ms;
+    color: #3F45DE;
+}
+
+.projectdiv>div:nth-child(2) p:nth-child(2) {
+    margin: 10px 0px 15px 0px;
+}
+
+.projectdiv button {
+    background: none;
+}
+
+.techstacks {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.twobtns {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.twobtns a {
+    /* border: 1px solid red; */
+    padding: 10px 30px;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(64, 67, 221, 1) 35%, rgba(17, 188, 244, 1) 100%);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+.twobtns a:hover{
+    transition: all 700ms;
+    color: #4042dd;
+    background: none;
+}
+/* .twobtns a:hover {
+    background: linear-gradient(90deg, rgba(64, 67, 221, 0.815) 35%, rgba(17, 187, 244, 0.81) 100%);
+} */
+
+@media (max-width:900px) {
+    .projectdiv>div:nth-child(2) p:nth-child(1) {
+        font-size: 30px;
+    }
+
+    .projectdiv>div:nth-child(2) p:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .projectdiv>div:nth-child(2) img {
+        width: 28px;
+    }
+}
+
+@media (max-width:700px) {
+    .projectcontainer>div {
+        flex-direction: column;
+    }
+
+    .projectcontainer>div>div {
+        width: 100%;
+    }
+
+    .projectdiv>div:nth-child(2) {
+        width: 95%;
+    }
+    .projectdiv>div:nth-child(2) p:nth-child(1){
+        font-size: 40px;
+    }
+   
+}
+
+@media (max-width:400px) {
+    .projectdiv>div:nth-child(2) p:nth-child(1){
+        font-size: 30px;
+    }
+}

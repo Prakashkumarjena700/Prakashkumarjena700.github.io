@@ -5,9 +5,8 @@ export default function TypeWritter() {
     <div className='typeRiter' >
       <TypeWriterEffect
         startDelay={2000}
-        cursorColor="#3F3D56"
+        cursorColor="black"
         multiText={[
-         'Prakash Kumar Jena',
          'Self-Motivated',
          'Creative',
          'Team Player'
