@@ -71,7 +71,7 @@ export default function Project() {
             <br />
             <div className='twobtns' >
               <a href="https://github.com/saikhmirsat/Manyavar-Clone" target='_blank' >Github</a>
-              <a href="https://velvety-pastelito-499046.netlify.app/" target='_blank' >Live</a>
+              <a href="https://manyavar-clone-nine.vercel.app/" target='_blank' >Live</a>
             </div>
           </div>
         </motion.div>
