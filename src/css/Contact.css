@@ -1,63 +1,71 @@
 .contact {
-    /* border: 1px solid navy; */
-    padding: 0px 10%;
-    margin-bottom: 20px;
+    padding: 30px 10%;
+   background-color: #CDD3DD;
 }
 
 .contactForm {
-    /* border: 1px solid red; */
     display: flex;
+}
+.contact h2{
+    font-weight: 500;
+    color: #202E44;
+    padding: 10px 0px;
 }
 
 .contactForm>div form {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border: 1.5px solid #3f45de;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, white, #8098B5 );
     padding: 40px;
     border-radius: 5px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+   
 }
 
 .contactForm>div form button {
     padding: 10px 0px;
-    background: linear-gradient(151deg, rgba(64, 66, 221, 1) 4%, rgba(17, 188, 244, 1) 97%);
+    background: linear-gradient(90deg, #8098B5 35%, #F5F5F5 100%);
     color: white;
-    border: none;
+    border: 1px solid #6E7580;
     font-size: 20px;
-    border: 1px solid #4042dd;
+    border-radius: 3px;
 }
 
 .contactForm>div form button:hover {
-    transition: all 700ms;
-    color: #4042dd;
-    background: none;
-    border: 1px solid #4042dd;
+    transition: all 900ms;
+    color: #8098B5;
+    font-weight: bold;
+    background: linear-gradient(90deg, #F5F5F5 35%, #8098B5 100%);
+    border: 1px solid #8098B5;
 }
 
 .contactForm>div input {
-    border: 1px solid #4042dd;
-    background: none;
-    outline: none;
+    border: 1px solid #8098B5;
     padding: 5px 10px;
-    height: 30px;
+    height: 40px;
 
+}
+.contactForm>div input:focus{
+    outline: none;
 }
 
 .contactForm>div textarea {
-    background: none;
     outline: none;
     padding: 5px 10px;
     height: 80px;
-    border-color: #4042dd;
+    border: 1px solid #8098B5;
+    border-radius: 2px;
 }
 
 .contactForm>div {
-    /* border: 1px solid green; */
     width: 50%;
 }
-
+.contactForm>div svg{
+    font-size: 40px;
+}
 .contactForm>div:last-child {
     display: flex;
     flex-direction: column;
@@ -71,39 +79,23 @@
     font-size: 20px;
 
 }
-
-.resumeDownloadeBtn {
-    border: 1px solid #4042dd;
-    text-decoration: none;
-    color: white;
-    width: 50%;
-    padding: 10px;
-    background: linear-gradient(151deg, rgba(64, 66, 221, 1) 4%, rgba(17, 188, 244, 1) 97%);
-    font-size: 20px;
-    text-align: center;
-}
-
-.resumeDownloadeBtn:hover {
-    transition: all 700ms;
-    color: #4042dd;
-    background: none;
-}
-
 .resumeDownloadbtnincontact {
-    border: 1px solid #4042dd;
+    border: 1px solid #8098B5;
     text-decoration: none;
     color: white;
     padding: 10px 150px;
-    background: linear-gradient(151deg, rgba(64, 66, 221, 1) 4%, rgba(17, 188, 244, 1) 97%);
+    background: linear-gradient(90deg, #8098B5 35%, #F5F5F5 100%);
     font-size: 20px;
     text-align: center;
     border-radius: 5px;
 }
 
 .resumeDownloadbtnincontact:hover {
-    transition: all 700ms;
-    color: #4042dd;
-    background: none;
+    transition: all 900ms;
+    color: #8098B5;
+    font-weight: bold;
+    background: linear-gradient(90deg, #F5F5F5 35%, #8098B5 100%);
+
 }
 
 @media (max-width:900px) {
@@ -124,7 +116,7 @@
     .contactForm {
         gap: 30px;
     }
-
+ 
 }
 
 @media(max-width:480px) {
@@ -137,5 +129,7 @@
 .thankyou {
     /* border: 1px solid red; */
     text-align: center;
-    background: linear-gradient(151deg, rgba(64, 66, 221, 1) 4%, rgba(17, 188, 244, 1) 97%);
+    background-color: #8098B5;
+    color: white;
+    /* background: linear-gradient(90deg, #8098B5 35%, #F5F5F5 100%); */
 }

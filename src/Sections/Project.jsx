@@ -1,5 +1,5 @@
 import React from 'react'
-import './Project.css'
+import '../css/Project.css'
 import timelyBanner from '../Photos/timelyBanner.png'
 import shinecomBanner from '../Photos/shinecomBanner.png'
 import naukricomBanner from '../Photos/nakuricomBanner.png'
@@ -45,113 +45,117 @@ import manyavar4 from '../Photos/manyavar4.avif'
 export default function Project() {
   return (
     <div className='project' >
-      <motion.h1
-        whileHover={{ x: 50 }}
-        transition={{ duration: 1 }}> My Projects</motion.h1>
-      <div className='projectcontainer' >
-        <motion.div
-          whileInView={{ y: [-50, 0] }}
-          transition={{ delay: 0.2 }}
-          className='projectdiv' >
-          <Projectslider img1={manyavar1} img2={manyavar2} img3={manyavar3} img4={manyavar4} />
-          <div>
-            <p>Manyavar Clone</p>
-            <p>One of India's leading celebration wear brands. Providing branded ethnic wear for men and kids and also for women with mohey's collection</p>
-            <div className='techstacks' >
-              <img src={html5logo} alt="html" />
-              <img src={css} alt="css" />
-              <img src={jslogo} alt="js" />
-              <img src={reactlogo} alt="react" />
-              <img src={nodejs} alt="nodejs" />
-              <img style={{ borderRadius: "50%" }} src={mongodb} alt="mongoDB" />
-              <img style={{ borderRadius: "50%" }} src={expresslogo} alt="expressjs" />
-              <img src={chakrauilogo} alt="chakra" />
-              <img src={reduxlogo} alt="redux" />
+      <div className="background-image-project">
+        <div className="fixed-container-project">
+          <h2> My Projects</h2>
+          <div className='projectcontainer' >
+            <div
+              whileInView={{ y: [-50, 0] }}
+              transition={{ delay: 0.2 }}
+              className='projectdiv' >
+              <Projectslider img1={manyavar1} img2={manyavar2} img3={manyavar3} img4={manyavar4} />
+              <div>
+                <p>Manyavar Clone</p>
+                <p>One of India's leading celebration wear brands. Providing branded ethnic wear for men and kids and also for women with mohey's collection.</p>
+                <div className='techstacks' >
+                  <img src={html5logo} alt="html" />
+                  <img src={css} alt="css" />
+                  <img src={jslogo} alt="js" />
+                  <img src={reactlogo} alt="react" />
+                  <img src={nodejs} alt="nodejs" />
+                  <img style={{ borderRadius: "50%" }} src={mongodb} alt="mongoDB" />
+                  <img style={{ borderRadius: "50%" }} src={expresslogo} alt="expressjs" />
+                  <img src={chakrauilogo} alt="chakra" />
+                  <img src={reduxlogo} alt="redux" />
+                </div>
+                <br />
+                <div className='twobtns' >
+
+                  <a href="https://github.com/Prakashkumarjena700/Manyavar-Clone" target='_blank' >Github</a>
+                  <a href="https://manyavar-clone-nine.vercel.app/" target='_blank' >Live</a>
+                </div>
+              </div>
             </div>
-            <br />
-            <div className='twobtns' >
-              <a href="https://github.com/saikhmirsat/Manyavar-Clone" target='_blank' >Github</a>
-              <a href="https://manyavar-clone-nine.vercel.app/" target='_blank' >Live</a>
+            <div
+              whileInView={{ y: [-50, 0] }}
+              transition={{ delay: 0.2 }}
+              className='projectdiv' >
+              <Projectslider img1={clarks1} img2={clarks2} img3={clarks3} img4={clarks4} />
+              <div>
+                <p>Clarks Clone</p>
+                <p>Clarks is a reputable brand of shoes that is known for being affordable, comfortable, and durable enough for everyday footware.</p>
+                <div className='techstacks' >
+                  <img src={html5logo} alt="html" />
+                  <img src={css} alt="css" />
+                  <img src={jslogo} alt="js" />
+                  <img src={reactlogo} alt="react" />
+                  <img src={nodejs} alt="nodejs" />
+                  <img style={{ borderRadius: "50%" }} src={mongodb} alt="mongoDB" />
+                  <img style={{ borderRadius: "50%" }} src={expresslogo} alt="expressjs" />
+                  <img src={chakrauilogo} alt="chakra" />
+                  {/* <img src={reduxlogo} alt="redux" /> */}
+                </div>
+                <br />
+                <div className='twobtns' >
+                  <a href="https://github.com/Prakashkumarjena700/ClarksShoes_Clone" target='_blank' >Github</a>
+                  <a href="https://clarks-shoes-clone.vercel.app/" target='_blank' >Live</a>
+                </div>
+              </div>
+            </div>
+            <div
+              whileInView={{ y: [-50, 0] }}
+              transition={{ delay: 0.2 }}
+              className='projectdiv' >
+              <Projectslider img1={tata1mg1} img2={tata1mg2} img3={tata1mg3} img4={tata1mg4} />
+              <div>
+                <p>Tata 1mg Clone</p>
+                <p>Tata 1mg provide accurate, authoritative & trustworthy information on medicines and help people use their medicines effectively and safely.</p>
+                <div className='techstacks' >
+                  <img src={html5logo} alt="html" />
+                  <img src={css} alt="css" />
+                  <img src={jslogo} alt="js" />
+                  <img src={reactlogo} alt="react" />
+                  <img src={nodejs} alt="nodejs" />
+                  <img style={{ borderRadius: "50%" }} src={mongodb} alt="mongoDB" />
+                  <img style={{ borderRadius: "50%" }} src={expresslogo} alt="expressjs" />
+                  <img src={chakrauilogo} alt="chakra" />
+                </div>
+                <br />
+                <div className='twobtns' >
+                  <a href="https://github.com/Prakashkumarjena700/Project_Medicare" target='_blank' >Github</a>
+                  <a href="https://project-medicare-fp24844q1-fullstackcrud.vercel.app/" target='_blank' >Live</a>
+                </div>
+              </div>
+            </div>
+            <div
+              whileInView={{ y: [-50, 0] }}
+              transition={{ delay: 0.2 }}
+              className='projectdiv' >
+              <Projectslider img1={naukri1} img2={naukri2} img3={naukri3} img4={naukri4} />
+              <div>
+                <p>Naukri.com Clone</p>
+                <p>Naukri.com, India's No.1 job site that provides hiring-related services to corporate/recruiters, placement agencies & to job-seekers in India.</p>
+                <div className='techstacks' >
+                  <img src={html5logo} alt="html" />
+                  <img src={css} alt="css" />
+                  <img src={jslogo} alt="js" />
+                  <img src={reactlogo} alt="react" />
+                  <img src={nodejs} alt="nodejs" />
+                  <img style={{ borderRadius: "50%" }} src={mongodb} alt="mongoDB" />
+                  <img style={{ borderRadius: "50%" }} src={expresslogo} alt="expressjs" />
+                  <img src={chakrauilogo} alt="chakra" />
+                </div>
+                <br />
+                <div className='twobtns' >
+                  <a href="https://github.com/Prakashkumarjena700/Naukri.com_Clone" target='_blank' >Github</a>
+                  <a href="https://naukri-com-frontend.vercel.app/" target='_blank' >Live</a>
+                </div>
+              </div>
             </div>
           </div>
-        </motion.div>
-        <motion.div
-          whileInView={{ y: [-50, 0] }}
-          transition={{ delay: 0.2 }}
-          className='projectdiv' >
-          <Projectslider img1={clarks1} img2={clarks2} img3={clarks3} img4={clarks4} />
-          <div>
-            <p>Clarks Clone</p>
-            <p>Clarks is a reputable brand of shoes that is known for being affordable, comfortable, and durable enough for everyday footware.</p>
-            <div className='techstacks' >
-              <img src={html5logo} alt="html" />
-              <img src={css} alt="css" />
-              <img src={jslogo} alt="js" />
-              <img src={reactlogo} alt="react" />
-              <img src={nodejs} alt="nodejs" />
-              <img style={{ borderRadius: "50%" }} src={mongodb} alt="mongoDB" />
-              <img style={{ borderRadius: "50%" }} src={expresslogo} alt="expressjs" />
-              <img src={chakrauilogo} alt="chakra" />
-              {/* <img src={reduxlogo} alt="redux" /> */}
-            </div>
-            <br />
-            <div className='twobtns' >
-              <a href="https://github.com/Prakashkumarjena700/ClarksShoes_Clone" target='_blank' >Github</a>
-              <a href="https://clarks-shoes-clone.vercel.app/" target='_blank' >Live</a>
-            </div>
-          </div>
-        </motion.div>
-        <motion.div
-          whileInView={{ y: [-50, 0] }}
-          transition={{ delay: 0.2 }}
-          className='projectdiv' >
-          <Projectslider img1={tata1mg1} img2={tata1mg2} img3={tata1mg3} img4={tata1mg4} />
-          <div>
-            <p>Tata 1mg Clone</p>
-            <p>Tata 1mg provide accurate, authoritative & trustworthy information on medicines and help people use their medicines effectively and safely.</p>
-            <div className='techstacks' >
-              <img src={html5logo} alt="html" />
-              <img src={css} alt="css" />
-              <img src={jslogo} alt="js" />
-              <img src={reactlogo} alt="react" />
-              <img src={nodejs} alt="nodejs" />
-              <img style={{ borderRadius: "50%" }} src={mongodb} alt="mongoDB" />
-              <img style={{ borderRadius: "50%" }} src={expresslogo} alt="expressjs" />
-              <img src={chakrauilogo} alt="chakra" />
-            </div>
-            <br />
-            <div className='twobtns' >
-              <a href="https://github.com/Prakashkumarjena700/Project_Medicare" target='_blank' >Github</a>
-              <a href="https://project-medicare-fp24844q1-fullstackcrud.vercel.app/" target='_blank' >Live</a>
-            </div>
-          </div>
-        </motion.div>
-        <motion.div
-          whileInView={{ y: [-50, 0] }}
-          transition={{ delay: 0.2 }}
-          className='projectdiv' >
-          <Projectslider img1={naukri1} img2={naukri2} img3={naukri3} img4={naukri4} />
-          <div>
-            <p>Naukri.com Clone</p>
-            <p>Naukri.com, India's No.1 job site that provides hiring-related services to corporate/recruiters, placement agencies & to job-seekers in India</p>
-            <div className='techstacks' >
-              <img src={html5logo} alt="html" />
-              <img src={css} alt="css" />
-              <img src={jslogo} alt="js" />
-              <img src={reactlogo} alt="react" />
-              <img src={nodejs} alt="nodejs" />
-              <img style={{ borderRadius: "50%" }} src={mongodb} alt="mongoDB" />
-              <img style={{ borderRadius: "50%" }} src={expresslogo} alt="expressjs" />
-              <img src={chakrauilogo} alt="chakra" />
-            </div>
-            <br />
-            <div className='twobtns' >
-              <a href="https://github.com/Prakashkumarjena700/Naukri.com_Clone" target='_blank' >Github</a>
-              <a href="https://naukri-com-frontend.vercel.app/" target='_blank' >Live</a>
-            </div>
-          </div>
-        </motion.div>
+        </div>
       </div>
+
     </div>
   )
 }

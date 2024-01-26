@@ -1,26 +1,23 @@
-import React, { useContext } from 'react'
-import './About.css'
-import { motion } from 'framer-motion'
-import { ThemContext } from '../Context/ThemContext'
-
+import React from 'react'
+import '../css/About.css'
+import myPic from "../Photos/myPassportSizePic.png"
 
 export default function About() {
-  const { them } = useContext(ThemContext)
-  console.log(them)
+
   return (
-    <div className='about' id={them && 'darkabout'}>
-      <motion.div
-        whileInView={{ y: [-50, 0] }}
-      >
-        <motion.h2
-          whileHover={{ x: 50 }}
-          transition={{ duration: 1 }}
-          style={{ display: 'inline-block' }}
-        >About Me</motion.h2>
-        <p>I am an aspiring full-stack web developer with 1200+ hours of coding and handson experience with frontend and backend at Masai School looking for an opportunity  where I can express my creative interests along with applying my technical skillset and help the company grow simultaneously.</p>
-      </motion.div>
+    <div className='About' >
+      <div className="background-image-about">
+        <div className="fixed-container-about">
+        </div>
+      </div>
+      <div className='aboutContent' >
+        <h2>About Me</h2>
+        <div>
+          <p>Hello, I'm Prakash Kumar Jena, an experienced Full Stack Developer with over 6 months of dedicated work. My passion lies in creating innovative solutions using the MERN stack. I thrive on turning ideas into reality, leveraging my creative mindset to build dynamic and user-centric applications. My journey in web development has equipped me with a strong foundation, and I am excited to showcase my skills and contribute to projects that demand a blend of creativity and technical expertise. I look forward to making a meaningful impact through my work.</p>
+          <img src={myPic} alt="Prakash Kumar Jena" />
+        </div>
+
+      </div>
     </div>
   )
 }
-
-

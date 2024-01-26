@@ -1,0 +1,100 @@
+.About {
+    background-color: #CDD3DD;
+}
+
+.background-image-about {
+    /* background-image: url('https://wallpaperaccess.com/full/2449594.jpg'); */
+    /* background-image: url('https://t4.ftcdn.net/jpg/03/37/97/15/360_F_337971557_OLJowuTgsomtp1USxOR8UUtvX4c8RV6f.jpg'); */
+    background-image: url('https://img.freepik.com/premium-vector/global-network-connections-with-points-lines-wireframe-background-abstract-connection-structure-polygonal-space-background_230610-123.jpg?w=900');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* border: 1px solid red; */
+}
+
+.fixed-container-about {
+    height: 250px;
+}
+
+.aboutContent {
+    border: 5px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #CDD3DD, #8098B5);
+    padding: 30px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    bottom: 130px;
+    background-color: white;
+    /* color: white; */
+    border-radius: 3px;
+}
+
+.aboutContent h2 {
+    font-weight: 500;
+    position: absolute;
+    color: #202E44;
+}
+
+.aboutContent p {
+    font-size: large;
+}
+.aboutContent>div{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.aboutContent>div>img{
+    border: 2px solid #8098B5;
+    border-radius: 50%;
+    width: 30%;
+}
+
+
+@media (max-width:1000px) {
+    .aboutContent p {
+        font-size: medium;
+       padding-top: 3rem;
+    }
+}
+
+@media (max-width:800px) {
+    .aboutContent>div{
+        flex-direction: column-reverse;
+    }
+    .aboutContent p{
+        padding-top: 1rem;
+    }
+    .aboutContent>div> img{
+        width: 70%;
+        margin-top: 3rem;
+    }
+}
+
+
+@media (max-width:420px) {
+    .aboutContent h2 {
+        margin-bottom: 5px;
+    }
+
+    .aboutContent p {
+        font-size: small;
+    }
+
+    .aboutContent h2 {
+        font-size: x-large;
+    }
+
+    .aboutContent {
+        padding: 20px;
+    }
+
+    .aboutContent {
+        bottom: 150px;
+    }
+
+    .About {
+        padding-top: 0px;
+    }
+}

@@ -1,10 +1,21 @@
 .project {
-    /* border: 1px solid red; */
-    margin-top: 100px;
-    padding: 10px 10%;
-    /* display: inline-block; */
+    /* width: 90%; */
+    margin: auto;
+  
+}
+.projectcontainer{
+    width: 90%;
+    margin: auto;
 }
 
+.fixed-container-project{
+    /* background-image: url('https://wallpaperaccess.com/full/2449594.jpg'); */
+    background-image: url('https://img.freepik.com/premium-vector/global-network-connections-with-points-lines-wireframe-background-abstract-connection-structure-polygonal-space-background_230610-123.jpg?w=900');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 50px 0px;
+}
 
 .projectcontainer>div {
     display: flex;
@@ -14,7 +25,7 @@
 
 .slidercontainer img {
     width: 100%;
-    height: 300px;
+    height: 295px;
 }
 
 .projectdiv>div {
@@ -23,9 +34,10 @@
     border: 5px solid;
     border-image-slice: 1;
     border-width: 3px;
-    border-image-source: linear-gradient(to left, #4042DD, #12BAF4);
+    border-image-source: linear-gradient(to left, #CDD3DD, #8098B5);
+    background-color: rgba(255, 255, 255, 0.733)
 }
-
+ 
 .projectdiv>div p {
     margin: 0px;
     padding: 0px;
@@ -37,6 +49,8 @@
 
 .projectdiv>div:nth-child(2) {
     padding: 0px 10px;
+    color: #6E7580;
+    /* background-color: rgba(0, 0, 0, 0.581); */
 }
 
 .projectdiv>div:nth-child(2) p:nth-child(1) {
@@ -48,12 +62,12 @@
 
 .projectdiv>div:nth-child(2) p:nth-child(1):hover {
     transition: all 900ms;
-    color: #3F45DE;
+    color: #8098B5;
 }
 
 .projectdiv>div:nth-child(2) p:nth-child(2):hover {
     transition: all 900ms;
-    color: #3F45DE;
+    color: #8098B5;
 }
 
 .projectdiv>div:nth-child(2) p:nth-child(2) {
@@ -83,19 +97,25 @@
     /* border: 1px solid red; */
     padding: 10px 30px;
     text-decoration: none;
-    background: linear-gradient(90deg, rgba(64, 67, 221, 1) 35%, rgba(17, 188, 244, 1) 100%);
+    background: linear-gradient(90deg, #8098B5 35%, #F5F5F5 100%);
     color: white;
-    border-radius: 5px;
-    border: 1px solid blue;
+    border: 1px solid #6E7580;
 }
-.twobtns a:hover{
-    transition: all 700ms;
-    color: #4042dd;
-    background: none;
+
+.twobtns a:hover {
+    transition: all 900ms;
+    color: #6E7580;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(90deg, #F5F5F5 35%, #8098B5 100%);
 }
-/* .twobtns a:hover {
-    background: linear-gradient(90deg, rgba(64, 67, 221, 0.815) 35%, rgba(17, 187, 244, 0.81) 100%);
-} */
+
+.project h2 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #202E44;
+    margin-left: 5%;
+}
 
 @media (max-width:900px) {
     .projectdiv>div:nth-child(2) p:nth-child(1) {
@@ -121,16 +141,17 @@
     }
 
     .projectdiv>div:nth-child(2) {
-        width: 95%;
+        width: 100%;
     }
-    .projectdiv>div:nth-child(2) p:nth-child(1){
+
+    .projectdiv>div:nth-child(2) p:nth-child(1) {
         font-size: 40px;
     }
-   
+
 }
 
 @media (max-width:400px) {
-    .projectdiv>div:nth-child(2) p:nth-child(1){
+    .projectdiv>div:nth-child(2) p:nth-child(1) {
         font-size: 30px;
     }
 }

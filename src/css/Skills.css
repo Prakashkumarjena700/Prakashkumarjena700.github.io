@@ -1,0 +1,323 @@
+.skills {
+    /* padding-top: 60px; */
+    background-color: #CDD3DD;
+    padding-bottom: 40px;
+    
+}
+
+.skills h1 {
+    font-weight: 500;
+    margin: 20px 0px 20px 10%;
+    font-size: xx-large;
+}
+
+.background-image-skills {
+    /* background-image: url('https://wallpaperaccess.com/full/2449594.jpg'); */
+    /* background-image: url('https://cdnb.artstation.com/p/assets/images/images/036/004/563/original/boris-martinez-gif-6-2-quadratum.gif?1616490298'); */
+    background-image: url('https://img.freepik.com/premium-vector/global-network-connections-with-points-lines-wireframe-background-abstract-connection-structure-polygonal-space-background_230610-123.jpg?w=900');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* border: 1px solid red; */
+}
+
+.fixed-container-skills {
+    height: 400px;
+}
+
+.skillsContent {
+    border: 5px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #CDD3DD, #8098B5);
+    border-radius: 3px;
+    width: 90%;
+    /* background-color: rgba(0, 0, 0, 0.784); */
+    /* background-color: #8098b55e; */
+    background-color: white;
+    margin: auto;
+    position: relative;
+    bottom: 270px;
+    height: 400px;
+    padding: 30px;
+    padding-bottom: 40px;
+}
+
+.skillsContent h2 {
+    color: #202E44;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+.skillsContent>div:nth-child(2) {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 90%;
+
+}
+
+.skillsContent>div:nth-child(2)>button {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border: 1px solid #79A3CB;
+    flex-direction: column;
+    color: #6E7580;
+}
+
+.skillsContent>div:nth-child(2) svg {
+    font-size: 40px;
+    padding: 5px;
+}
+
+.skillsContent>div:nth-child(2) img {
+    width: 20px;
+}
+
+.skillsContent>div button p {
+    font-size: xx-small;
+}
+
+.skillsContent>div button:hover {
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: all 700ms;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(1):hover {
+    box-shadow: 0px 0px 25px 4px rgba(66, 148, 50, 1);
+    border: 1px solid green;
+    color: green;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(2):hover {
+    box-shadow: 0px 0px 25px 4px rgba(126, 126, 126, 1);
+    border: 1px solid gray;
+    color: gray;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(3):hover {
+    box-shadow: 0px 0px 25px 4px rgba(97, 218, 251, 1);
+    border: 1px solid #61DAFE;
+    color: #61DAFE;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(4):hover {
+    box-shadow: 0px 0px 25px 4px rgba(119, 181, 94, 1);
+    border: 1px solid #77B55E;
+    color: #77B558;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(5):hover {
+    box-shadow: 0px 0px 25px 4px rgba(118, 74, 188, 1);
+    border: 1px solid #764ABC;
+    color: #764ABC;
+}
+.skillsContent>div:nth-child(2)>button:nth-child(6){
+    display: none;
+}
+.skillsContent>div:nth-child(2)>button:nth-child(6):hover {
+    box-shadow: 0px 0px 25px 4px rgba(49, 120, 198, 1);
+    border: 1px solid #3178C6;
+    color: #3178C6;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(7):hover {
+    box-shadow: 0px 0px 27px 4px rgba(221, 75, 37, 1);
+    border: 1px solid #DD4B25;
+    color: #DD4B25;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(8):hover {
+    box-shadow: 0px 0px 27px 4px rgba(37, 75, 221, 1);
+    border: 1px solid #254BDD;
+    color: #254BDD;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(9):hover {
+    box-shadow: 0px 0px 27px 4px rgba(249, 215, 51, 1);
+    border: 1px solid #F9D733;
+    color: #F9D733;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(10):hover {
+    box-shadow: 0px 0px 27px 4px gray;
+    border: 1px solid gray;
+    color: gray;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(11):hover {
+    box-shadow: 0px 0px 27px 4px rgba(250, 0, 153, 1);
+    border: 1px solid #FA0099;
+    color: #FA0099;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(12):hover {
+    box-shadow: 0px 0px 27px 4px rgba(191, 47, 49, 1);
+    border: 1px solid #BF2F31;
+    color: #BF2F31;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(13):hover {
+    box-shadow: 0px 0px 27px 4px #05BDBA;
+    border: 1px solid #05BDBA;
+    color: #05BDBA;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(14):hover {
+    box-shadow: 0px 0px 27px 4px violet;
+    border: 1px solid violet;
+    color: violet;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(15):hover {
+    box-shadow: 0px 0px 27px 4px blue;
+    border: 1px solid blue;
+    color: blue;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(16):hover {
+    box-shadow: 0px 0px 27px 4px #36B7F0;
+    border: 1px solid #36B7F0;
+    color: #36B7F0;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(17):hover {
+    box-shadow: 0px 0px 27px 4px #F26B3A;
+    border: 1px solid #F26B3A;
+    color: #F26B3A;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(18):hover {
+    box-shadow: 0px 0px 27px 4px #54C8C6;
+    border: 1px solid #54C8C6;
+    color: #54C8C6;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(19):hover {
+    box-shadow: 0px 0px 27px 4px #7431F9;
+    border: 1px solid #7431F9;
+    color: #7431F9;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(20):hover {
+    box-shadow: 0px 0px 27px 4px #0073E7;
+    border: 1px solid #0073E7;
+    color: #0073E7;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(21):hover {
+    box-shadow: 0px 0px 27px 4px #D6FB35;
+    border: 1px solid #D6FB35;
+    color: #D6FB35;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(22):hover {
+    box-shadow: 0px 0px 27px 4px orange;
+    border: 1px solid orange;
+    color: orange;
+}
+.skillsContent>div:nth-child(2)>button:nth-child(23):hover {
+    box-shadow: 0px 0px 27px 4px #3246BF;
+    border: 1px solid #3246BF;
+    color: #3246BF;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(24):hover {
+    box-shadow: 0px 0px 27px 4px #F4392E;
+    border: 1px solid #F4392E;
+    color: #F4392E;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(25):hover {
+    box-shadow: 0px 0px 27px 4px #207196;
+    border: 1px solid #207196;
+    color: #207196;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(16) img {
+    width: 70%;
+    margin: auto;
+}
+
+.skillsContent>div:nth-child(2)>button:nth-child(15) img:hover {
+    background-color: blue;
+    transition: all 700ms;
+}
+
+.Mystatic {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Mystatic img {
+    width: 49%;
+}
+
+.statesAndCalender {
+    width: 90%;
+    margin: auto;
+    margin-top: -200px;
+}
+
+.statesAndCalender h2 {
+    font-weight: 500;
+    color: #202E44;
+}
+
+.githubCalander {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media (max-width:420px) {
+    .fixed-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .fixed-container button svg {
+        font-size: 40px;
+    }
+
+    .skillsContent h2 {
+        font-size: x-large;
+    }
+
+    .skillsContent>div:nth-child(2) {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3%;
+    }
+
+    .skills {
+        padding-top: 0px;
+    }
+
+    .skillsContent {
+        padding: 20px;
+        height: 710px;
+    }
+
+    .Mystatic {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .Mystatic img {
+        width: 100%;
+    }
+
+    .statesAndCalender h2 {
+        font-size: x-large;
+    }
+}
