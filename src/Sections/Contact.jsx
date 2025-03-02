@@ -9,7 +9,7 @@ import { ImMail4 } from "react-icons/im";
 import { motion } from 'framer-motion'
 
 import Resume from "../Aseests/fp05_036-Prakash-Jena.pdf"
-import UpdatedResume from "../Aseests/Prakash_Kumar_Jena_Fp05_036.pdf";
+import UpdatedResume from "../Aseests/Prakash__Kumar_Jena_Resume.pdf";
 
 import { TiSocialLinkedin } from 'react-icons/ti';
 import { IoIosMail } from 'react-icons/io';
@@ -55,7 +55,7 @@ export default function Contact() {
           {/* <a href="https://drive.google.com/uc?export=download&id=1vJ8SpJ2Pyef4wQOBZEWp1eu-twa8Pgwp" className='resumeDownloadeBtn' style={{borderRadius:'5px'}} >Download My Resume</a> */}
           <a href={UpdatedResume}
             target="_blank"
-            download={"fp05_036-Prakash-Jena"}
+            download={"Prakash__Kumar_Jena_Resume"}
             _hover={{ TextDecoder: "none" }}
 
           >

@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/Home.css'
 import CountUp from 'react-countup';
 
-import UpdatedResume from "../Aseests/Prakash_Kumar_Jena_Fp05_036.pdf";
+import UpdatedResume from "../Aseests/Prakash__Kumar_Jena_Resume.pdf";
 import HomeBg from "../Aseests/portfolio_home_background.mp4"
 
 import TypeWritter from '../Components/TypeWritter'
@@ -15,7 +15,7 @@ import { motion } from 'framer-motion'
 
 export default function Home() {
     const handelClick = () => {
-        window.open("https://drive.google.com/file/d/1gpTSkY-g7RP8WQIgO1fYWbDmp2EkaYGG/view?usp=sharing", "_blank")
+        // window.open("https://drive.google.com/file/d/1gpTSkY-g7RP8WQIgO1fYWbDmp2EkaYGG/view?usp=sharing", "_blank")
     }
 
     return (
@@ -43,7 +43,7 @@ export default function Home() {
                 </div>
                 <a href={UpdatedResume}
                     target="_blank"
-                    download={"fp05_036-Prakash-Jena"}
+                    download={"Prakash__Kumar_Jena_Resume"}
                     _hover={{ TextDecoder: "none" }}>
                     <button download={UpdatedResume} onClick={() => handelClick()} >Resume</button>
                 </a>
