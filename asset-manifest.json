@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bffdcb08.css",
-    "main.js": "/static/js/main.a02c6d46.js",
+    "main.js": "/static/js/main.dc20142e.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/portfolio_home_background.mp4": "/static/media/portfolio_home_background.b267889b50914b5348ad.mp4",
     "static/media/tata1mg3.png": "/static/media/tata1mg3.32809dcc8a26eddfe257.png",
@@ -13,11 +13,11 @@
     "static/media/mongidb.webp": "/static/media/mongidb.e1a467194973565f911f.webp",
     "static/media/manyavar2.avif": "/static/media/manyavar2.f1b8ad9c160e14a589c5.avif",
     "static/media/tata1mg2.png": "/static/media/tata1mg2.87f2d15ded3a97042dae.png",
-    "static/media/Prakash_Kumar_Jena_Fp05_036.pdf": "/static/media/Prakash_Kumar_Jena_Fp05_036.e5e815f97d4ec767e2a5.pdf",
     "static/media/naukri2.png": "/static/media/naukri2.a598abc30c386ef8bb86.png",
     "static/media/nakuricomBanner.png": "/static/media/nakuricomBanner.4f72f2d91d755dd5a9b9.png",
     "static/media/fp05_036-Prakash-Jena.pdf": "/static/media/fp05_036-Prakash-Jena.6e1a89d419b6f72822d4.pdf",
     "static/media/naukri3.png": "/static/media/naukri3.6b597c342df4188ef09d.png",
+    "static/media/Prakash__Kumar_Jena_Resume.pdf": "/static/media/Prakash__Kumar_Jena_Resume.2c73c52ca43db225d338.pdf",
     "static/media/clarks2.webp": "/static/media/clarks2.fde1483321d429ac90f0.webp",
     "static/media/naukri4.png": "/static/media/naukri4.312a0e49ce1fe68aa712.png",
     "static/media/manyavar3.webp": "/static/media/manyavar3.bbbcce2149d3405a3ed4.webp",
@@ -44,11 +44,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.bffdcb08.css.map": "/static/css/main.bffdcb08.css.map",
-    "main.a02c6d46.js.map": "/static/js/main.a02c6d46.js.map",
+    "main.dc20142e.js.map": "/static/js/main.dc20142e.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bffdcb08.css",
-    "static/js/main.a02c6d46.js"
+    "static/js/main.dc20142e.js"
   ]
 }
